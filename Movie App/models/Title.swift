@@ -29,6 +29,12 @@ struct Title: Codable {
         case releaseDate = "release_date"
         case voteAvg = "vote_average"
     }
+    
+}
+
+struct TitleUpcoming {
+    let titleName: String
+    let posterURL: String
 }
 
 struct TitleDataList: Codable {
